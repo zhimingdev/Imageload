@@ -16,6 +16,7 @@ public interface UserService {
 //    void update(User user);
     User selectByPrimaryKey(Integer id);
 
+
     int insert(User user);
 
 }

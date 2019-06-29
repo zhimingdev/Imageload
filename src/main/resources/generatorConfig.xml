@@ -25,6 +25,7 @@
                 connectionURL="jdbc:mysql://10.1.20.103:3306/uniplatform?nullCatalogMeansCurrent=true"
                 userId="root"
                 password="xwd.2018">
+
         </jdbcConnection>
 
         <!-- java类型处理器

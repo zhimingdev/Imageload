@@ -45,6 +45,7 @@ public class UploadaController {
                         file.transferTo(file1);
 
                     }
+
 //                    session.setAttribute("newFileNmae",newFileName);
                 }
 

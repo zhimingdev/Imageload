@@ -19,6 +19,7 @@ public class SysUser {
 
     private Integer status;
 
+
     public String getId() {
         return id;
     }

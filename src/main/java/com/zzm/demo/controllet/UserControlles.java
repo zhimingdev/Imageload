@@ -50,6 +50,7 @@ public class UserControlles {
         list.add("李四");
         list.add("王五");
         list.add("赵六");
+
         boolean b = redisTemplateService.set("list", list);
         if (b) {
             System.out.println("redis数据: "+redisTemplateService.get("list",String.class));

@@ -10,6 +10,7 @@
     <result column="role_id" property="roleId" jdbcType="VARCHAR" />
     <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
     <result column="status" property="status" jdbcType="INTEGER" />
+
   </resultMap>
   <sql id="Base_Column_List" >
     id, name, email, mobile, password, role_id, create_time, status
