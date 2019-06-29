@@ -11,7 +11,8 @@ import java.util.concurrent.TimeUnit;
 public class TaskClass {
 
 
-    public static void main(String[] args) {
+    public static void ma
+    in(String[] args) {
         ScheduledExecutorService service = Executors.newSingleThreadScheduledExecutor();
         service.scheduleAtFixedRate(()-> System.out.println("时间 ==> "+new Date()),0,3, TimeUnit.SECONDS);
     }

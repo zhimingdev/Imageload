@@ -18,6 +18,7 @@ import java.util.Map;
 @RestController
 public class UploadaController {
 
+
     @RequestMapping(value = "/uploadimage",method = RequestMethod.POST)
     public Map upload(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
         Map<String,String> map = new HashMap<>();

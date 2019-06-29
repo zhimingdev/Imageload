@@ -23,7 +23,8 @@ public class ScheduledTask {
      * 每天下午5点输出语句
      */
     @Scheduled(cron = "0 0 17 * * ?")
-    public void showTest1() {
+    public void showTest1()
+    {
         System.out.println("当前时间 ==> 这是一个定时输出语句");
     }
 

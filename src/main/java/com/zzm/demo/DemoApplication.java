@@ -10,6 +10,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @MapperScan("com.zzm.demo.mapper")
 @EnableEurekaServer
 @EnableScheduling
+
 public class DemoApplication {
 
     public static void main(String[] args) {

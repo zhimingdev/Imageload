@@ -18,6 +18,7 @@ public class RedisTemplateService {
         try {
 
 
+
             //任意类型转换成String
             String val = beanToString(value);
 

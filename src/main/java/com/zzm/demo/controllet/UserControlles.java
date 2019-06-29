@@ -43,6 +43,7 @@ public class UserControlles {
 //        return map;
 //    }
 
+
     @RequestMapping(value = "/select/{id}",method = RequestMethod.GET)
     public User id(@PathVariable Integer id) {
         List<String> list = new ArrayList<>();
